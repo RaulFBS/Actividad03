@@ -14,6 +14,9 @@ public class Pedido {
     public Pedido() {
     }
 
+    public Pedido(Cliente cliente, double v) {
+    }
+
     public Cliente getCliente() {
         return cliente;
     }
